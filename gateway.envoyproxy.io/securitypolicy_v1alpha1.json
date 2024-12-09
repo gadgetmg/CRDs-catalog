@@ -562,7 +562,7 @@
                                   "description": "ExpectedStatuses defines a list of HTTP response statuses considered healthy.\nDefaults to 200 only",
                                   "items": {
                                     "description": "HTTPStatus defines the http status code.",
-                                    "exclusiveMaximum": true,
+                                    "exclusiveMaximum": 600,
                                     "maximum": 600,
                                     "minimum": 100,
                                     "type": "integer"
@@ -1041,7 +1041,7 @@
                               "description": "HttpStatusCodes specifies the http status codes to be retried.\nThe retriable-status-codes trigger must also be configured for these status codes to trigger a retry.",
                               "items": {
                                 "description": "HTTPStatus defines the http status code.",
-                                "exclusiveMaximum": true,
+                                "exclusiveMaximum": 600,
                                 "maximum": 600,
                                 "minimum": 100,
                                 "type": "integer"
@@ -1477,7 +1477,7 @@
                                   "description": "ExpectedStatuses defines a list of HTTP response statuses considered healthy.\nDefaults to 200 only",
                                   "items": {
                                     "description": "HTTPStatus defines the http status code.",
-                                    "exclusiveMaximum": true,
+                                    "exclusiveMaximum": 600,
                                     "maximum": 600,
                                     "minimum": 100,
                                     "type": "integer"
@@ -1956,7 +1956,7 @@
                               "description": "HttpStatusCodes specifies the http status codes to be retried.\nThe retriable-status-codes trigger must also be configured for these status codes to trigger a retry.",
                               "items": {
                                 "description": "HTTPStatus defines the http status code.",
-                                "exclusiveMaximum": true,
+                                "exclusiveMaximum": 600,
                                 "maximum": 600,
                                 "minimum": 100,
                                 "type": "integer"
@@ -2642,7 +2642,7 @@
                                   "description": "ExpectedStatuses defines a list of HTTP response statuses considered healthy.\nDefaults to 200 only",
                                   "items": {
                                     "description": "HTTPStatus defines the http status code.",
-                                    "exclusiveMaximum": true,
+                                    "exclusiveMaximum": 600,
                                     "maximum": 600,
                                     "minimum": 100,
                                     "type": "integer"
@@ -3121,7 +3121,7 @@
                               "description": "HttpStatusCodes specifies the http status codes to be retried.\nThe retriable-status-codes trigger must also be configured for these status codes to trigger a retry.",
                               "items": {
                                 "description": "HTTPStatus defines the http status code.",
-                                "exclusiveMaximum": true,
+                                "exclusiveMaximum": 600,
                                 "maximum": 600,
                                 "minimum": 100,
                                 "type": "integer"
